@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+</head>
+
+<main>
+<div id="background"></div>
+
+<div id="topnav">
+    <a href="../index.html" class="topbutton">Home</a>
+    <a href="#" class="topbutton">Portfolio</a>
+    <a href="index.html" class="topbutton">Blog Posts</a>
+</div>
+
+
+<div id="sidenav">
+  <ul>
+    <li><a class="bloglink" href="../blog/c1-chefs-kitchen.html"> Chef's Kitchen</a></li>
+   <li> <a class="bloglink" href="../blog/t1-git-blog.html"> Git vs GitHub </a></li>
+   <li><a class="bloglink" href="../blog/t2-css-design.html"> Inline vs Block-Inline </a></li>
+  <li><a class="bloglink" href="../blog/t3_array_vs_hash.html"> Arrays and Hash </a></li>
+    <li><a class="bloglink" href="../blog/thinking_style.html"> Personal Thinking Style </a></li>
+    <li><a class="bloglink" href="../blog/enumerator_count.html"> .count Method </a></li>
+   </ul>
+</div>
+<div id="blogtext">
+  <h1>.count Method</h1>
+  <h2>A look into a common enumerator method</h2>
+  <h4>March 1st 2015</h4>
+  
+  <section>
+    <p>
+    Today I am going to talk about the Ruby Enumerable method .count. It is actually simple enough to understand, but in order to do so first we need to understand what exactly an Enurmerable method is in the first place! Basically for a class to be able to use an enurable method it must be able to define an #each method. Most of the classes that can do this turn out to be data collection classes, which for most beginiers like us means Arrays and Hashes. For classes that fall into this catagory, their are a number of methods called Enumerable methods that will work for each one.
+    </p>
+
+    <p> 
+    .count turns out to be one of these Enumerable methods. In its most basic use, it does exactly what you would expect it to do; it counts the number of data points in the array or hash. for example if you have array=[1,2,3,4,3,2,1], array.count would return #= 7.
+    
+        
+    </p>
+
+    <p> 
+    The count method can do more than just that however. It can also count the number of times a single data point is repeated. Using the same array from our previous example, array.count(3) would return #=2, since the object 3 occurs twice in the array.
+    
+    </p>
+    <p>
+    The .count method has one more trick up its sleeve. If .count is given and object and a block, it will return the number of times that the argument comes back as true. For example, when using the same array example, array.count {|x| x%2==0} would return #=3, since their are 3 instances where the remainder of x/2 is equil to 0 (2, 4, and the second 2)
+    </p>
+    <p>
+    Enumerator methods can be extremely useful, as they generally have a number of important uses. One thing that makes them particularly common to use in ruby is the fact that they apply to a number of different classes that are themselves used frequently in ruby, like Hashes and Arrays.
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+  </div>
+</main>
+
