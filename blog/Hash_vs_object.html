@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>Class Methods</title>
+  <title>Hashes vs Objects</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
@@ -35,34 +35,30 @@
    </ul>
 </div>
 <div id="blogtext">
-  <h1>Class Methods</h1>
-  <h2></h2>
-  <h4>March 15, 2015</h4>
+  <h1>The Ruby Hash vs the JavaScript Object</h1>
+  <h2>Truly more alike than different</h2>
+  <h4>March 22, 2015</h4>
   
   <section>
     <p>
-    The class method is pretty simple to understand actually. Essentially it is a method that can be called on any instance of a Class. I don't thing that I've covered Classes yet in this blog, but essentially a Class is a tool in Ruby that is used to encompass a group of methods that are related to one another, whether it be in their function, or with the objects that they are interacting with. That probably isn't the strongest definition that you can find, but its the best that I can currently articulate. Remember this is only my 4th week working in Ruby. There are many other resources you can find to help clear up any misunderstandings of Classes in Ruby.
-    
+    This week at DBC we jumped into the world of JavaScript, and just as I was getting used to working in Ruby! Oh well, I'm just glad they keep us on our toes! While going over the basics of JS I tried to 'translate' what any given structure in JS was to its Ruby counterpart. That is, if it had one. The JS object (not to be confused with objects in ruby!) so much like Hashes in Ruby, its almost like one was modeled after the other!! (hint hint, wink wink)
       <!-- add text -->
     </p>
 
     <p> 
-    So the Class method will allow itself to be called on any instance of a the Class. This is the opposite of a instance method, which will only work on a single instance of the class, as specified by the programmer or user. In order to define a class method as opposed to simply a instnace method, you must be sure to include a 'self.' before naming the method. OK, so time for an example I suppose
+    First of all the purposes of Hashes(Ruby) and Objects(JS) are essentially the same; storing and organizing data, correlating each unit of Data to a key. I went briefly went over Hashes (ruby) in a <a class="bloglink" href="../blog/t3_array_vs_hash.html"> previous blog </a>. 
         <!-- add text -->
     </p>
 
     <p> 
-    class Blog<br>
-          def self.example_method<br>
-            p "class methods are great!"<br>
-          end<br>
-    end
+    Luckily the syntax and structure of these two are super similar as well. This similarity presented itself as a double edged sword for me this week. One one hand it made it easy to remember how to set up my JS objects, but on the other hand I accidently wrote them like I would a Ruby Hash. Woops! any ways the syntax looks a little bit like this:<br>
+    Ruby Hash:<br>
+    hash = {:key1 => item1, :key2 =>item2}<br>
+    JS Object:<br>
+    var object = {key1: "item1", key2: "item2"}<br>
+    As you can see, very similar with some subtle differences!
 
-    
-    </p>
-    <p>
-    So with this code, Blog.example_method could be used to return "class methods are great!"
-    If we had just used an instance method (left out the .self), we would have had to call Blog.new.example_method, to do the same thing. Obviously this becomes more and more convenient, the more complicated the entire piece of code becomes.
+
     </p>
 
       <!-- copy and paste as many sections as you want to add paragraphs -->
