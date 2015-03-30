@@ -1,0 +1,84 @@
+<html>
+<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/cheatsheet.css">
+<body>
+	<div id="background"></div>
+
+	<div id="topnav">
+    	<a href="#" class="topbutton">Home</a>
+    	<a href="#" class="topbutton">Portfolio</a>
+    	<a href="blog/index.html" class="topbutton">Blog Posts</a>
+	</div>
+	<div id="title">
+	<h1> git Cheat-Sheet</h1>
+	
+
+	</div>
+	<div class="body">
+	<h3> Configure tooling</h3>
+	<p>
+		<b><i>$ git config --global user.name "[name]"</i></b><br>
+		Sets the name you want atached to your commit transactions<br>
+		<b><i>$ git config --global user.email "[email address]"</i></b><br>
+		Sets the email you want atached to your commit transactions<br>
+		<b><i>$ git config --global color.ui auto</i></b><br>
+		Enables helpful colorization of command line output
+	</p>
+	<h3>Create Repositories </h3>
+	<p>
+		<b><i>$ git init [project-name]</i></b><br>
+		Creates a new local repository with the specified name<br>
+		<b><i>$ git clone [url]</i></b><br>
+		Downloads a project and its entire version history<br>
+	</p>
+	<h3> Make Changes</h3>
+	<p>
+	<b><i>$ git status</i></b><br>
+	Lists all new or modified files to be commited<br>
+	<b><i>$ git add [file]</i></b><br>
+	Snapshots the file in preparation for versioning<br>
+	<b><i>$ git reset [file]</i></b><br>
+	Unstages the file, but preserve its contents<br>
+	<b><i>$ git diff</i></b><br>
+	Shows file differences not yet staged<br>
+	<b><i>$ git diff --staged</i></b><br>
+	Shows file differences between staging and the last file version<br>
+	<b><i>$ git commit -m "[descriptive message]"</i></b><br>
+	Records file snapshots permanently in version history<br>
+	</p>
+
+	<h3>Group Changes</h3>
+	<p>
+		<b><i>$ git branch</i></b><br>
+		Lists all local branches in the current repository<br>
+		<b><i>$ git branch [branch-name]</i></b><br>
+		Creates a new branch<br>
+		<b><i>$ git checkout [branch-name]</i></b><br>
+		Switches to the specified branch and updates the working directory<br>
+		<b><i>$ git merge [branch]</i></b><br>
+		Combines the specified branch’s history into the current branch<br>
+		<b><i>$ git branch -d [branch-name]</i></b><br>
+		Deletes the specified branch<br>
+	</p>
+
+	<h3>Review History</h3>
+	<p>
+		<b><i>$ git log</i></b><br>
+		Lists version history for the current branch<br>
+		<b><i>$ git log --follow [file]</i></b><br>
+		Lists version history for a file, including renames<br>
+		<b><i>$ git diff [first-branch]...[second-branch]</i></b><br>
+		Shows content differences between two branches<br>
+		<b><i>$ git show [commit]</i></b><br>
+		Outputs metadata and content changes of the specified commit<br>
+	</p>
+
+
+	</div>
+
+	
+	
+	
+	
+</body>
+</html>
