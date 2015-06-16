@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-permalink: /Resume/
+permalink: /resume/
 ---
 
 which is shown in the screenshot below:
