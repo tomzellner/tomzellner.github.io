@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Affirmation and Values"
+date:   2015-03-22 09:17:32
+categories: jekyll update
+---
+
+
+For this blog, I was asked to come up with a list of a few values that I associated with moments in my life where I felt the most proud or accomplished, and then rate, on a scale of 1-5, whether or not I try to live up to each of these values in my everyday life. This was rather difficult for me narrow down, but I finally settled on three: Confidence, Community, and Intellectual Status. I wont go to far into details about why I chose these three, but after careful thought, and scrolling through the list a few times, these are the three that stuck out. In a few short words, these are values that I, well, value, and hope to hold myself too. That being said, <strike>sometimes</strike> often times, I don't. Confidence for example, Id give myself like 2.5-3 for any given day, especially if I'm working in situations where I am unsure of my abilities. This is a huge piece of stereotype threat, so clearly it is something to actively think about and work on. The moments in my life where I felt the most accomplished, I was able to do what I did because I was confident in my abilities, even if the task at hand was challenging! On a smaller scale this has definitely been true during my phase0 at DBC. 
+
+Looking back at my accomplishments for the purposes of this exercises, I realized most of my accomplishments meant very little to me if I had no one to share them with. Even when working independently, I feel it is always nice to have someone to share your accomplishments with. The DBC solo challenges are a perfect example of this. Sure we do them on our own, but being to collectively pat our selves on the back on the Google+ page or when discussing the project during our next GPS session makes the victory so much sweeter. I also feel like it can be just as rewarding helping someone in your 'community' achieve a goal or finish a task, even if your not directly a beneficiary (other than sharing in the excitement of your friend!) Id rate myself a 4, so not perfect, but its definitively something I care to think about. I feel that community is a very important tool for combating stereotype threat, because a healthy community will ensure that you feel that you belong.
+
+
+
+<h3>Advice</h3>
+ Recently a friend moved to out east for Graduate school (I guessing Intellectual Status would make her list too :P ) She called me one day shortly after her program started, and was worried that the program might not be a good fit. She enjoyed her class so far, but she wasn't sure that she was a good fit for the program. She was older than most of the others in her class since she took a few years off between her undergraduate studies and applying to Grad school (since when was working 60 hrs a week considered taking a few years off??). I remember telling her that I bet she was actually a better fit than she thought, and that if she got to know some of the people in her program outside of simply an academic environment, she would think so too. And of course once she began making friends and creating a community for herself in this new city, she immediately felt a greater sense of belonging in they city, the school, and most importantly (to her), her program
