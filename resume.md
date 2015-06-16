@@ -9,4 +9,4 @@ permalink: /resume/
 
 
 
-you can [get the PDF](/assets/Resume.pdf) directly.
+you can [get the PDF](/assets/Resume.pdf) directly
