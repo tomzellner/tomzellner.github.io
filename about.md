@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![Tom Zellner Resume](/assets/self_potrait.jpg){: height="400px" id='selfie' style="float: left" }
+![Tom Zellner Resume](/assets/self_potrait.jpg){: height="400px" id='selfie' style="float: left; padding-right: 40px" }
 
 
 I'm a recent UC Berkeley Grad who majored in International Trade and Development. I spent my final semester working on my undergraduate Thesis. In doing so I gained valuable practice at formal and academic research at its most devolved and applicable manner. While the analysis of yam production in Jamaica or a historical narrative of the systematic regime change in Chile might not help me with my JavaScript Closures or Git Workflow, it has left me with the invaluable knowledge of learning how to learn and a comfortability with being left in charge of my continued education.
