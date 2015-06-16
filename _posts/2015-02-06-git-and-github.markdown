@@ -13,7 +13,7 @@ GitHub works (and sounds!) very similarly to git, but fulfills a different need.
 These descriptions of VCS, git, and GitHub is merely the reflection of a beginner hoping to explain these things in layman's terms, so please forgive me for any unintentional ignorance.
 
 
-<!-- {% highlight ruby %}
+{% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
 end
@@ -22,7 +22,7 @@ print_hi('Tom')
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
- -->
+ 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
