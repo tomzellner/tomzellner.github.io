@@ -4,9 +4,9 @@ title: Resume
 permalink: /resume/
 ---
 
-which is shown in the screenshot below:
-![My helpful screenshot]({{ site.url }}/assets/resume.pdf)
+
+![Tom Zellner Resumer](/assets/resume_photo.png)
 
 
 
-… you can [get the PDF]({{ site.url }}/assets/resume.pdf) directly.
+you can [get the PDF](/assets/resume.pdf) directly.
