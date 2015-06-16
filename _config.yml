@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Personal Website of Tom Zellner <br>
   Full Stack Web Developer with a passion for creativity <br>
   Please feel free to contact me
-baseurl: "/blogs/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tomzellner.github.io" # the base hostname & protocol for your site
 twitter_username: tomzellner
 github_username:  tomzellner
