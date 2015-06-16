@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 
-![Tom Zellner Resumer](/assets/resume_photo.png)
+![Tom Zellner Resume](/assets/resume_photo.png)
 
 
 
