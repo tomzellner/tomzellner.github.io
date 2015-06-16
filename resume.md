@@ -4,7 +4,7 @@ title: Resume
 permalink: /Resume/
 ---
 
-… which is shown in the screenshot below:
+which is shown in the screenshot below:
 ![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
 
 
